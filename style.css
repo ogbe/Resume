@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  font-family: 'Merriweather', 'serif';
+  margin: 70px;
+  width: 70%
+}
+
+main h1 {
+  font-size: 60px
+}
+
+main, section {
+  padding: 40px 0
+}
+
+.blue-heading {
+  color: rgb(33, 90, 196);
+  text-transform: uppercase;
+  margin: 25px 0
+}
+
+.date-text {
+  text-transform: capitalize;
+  color: darkgray;
+  font-size: 12px;
+  margin: 7px 0
+}
+
+.small-text {
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif
+}
+
+.bold-text {
+  font-weight: bold
+}
+
+#education p:nth-child(3) {
+  padding: 25px 0 0
+}
+
+#container {
+  display: flex;
+  justify-content: space-between
+}
+
+#container > div:first-child {
+  margin: 10px
+}
+
+#side {
+  width: 160px
+}
+
+#main {
+  width: 470px
+}
+
+ul li {
+  color: darkgray;
+  list-style-type: none;
+}
